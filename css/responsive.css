@@ -1,0 +1,870 @@
+@media screen and (max-width: 1440px) {
+    .cover_title {
+        bottom: 72%;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    * {
+        font-size: 15px;
+    }
+    .cover_title {
+        bottom: 75%;
+    }
+    .introduce {
+        font-size: 2.5rem;
+        /* line-height: 1.1; */
+    }
+
+    /* profile */
+    .profile,
+    .menupopup,
+    .menupopup2 {
+        width: 1024px;
+    }
+
+    .profiletop,
+    .menupopuptop {
+        padding: 0.9rem 3.1rem 0.8em 3.1rem;
+    }
+
+    .profilebottom {
+        height: 38rem;
+        padding-bottom: 1rem;
+    }
+
+    .profiletitle {
+        padding-bottom: 0rem;
+    }
+
+    .profile1 {
+        /* padding: .5rem 0 .8rem 0; */
+        padding: 1rem 0 1.2rem 0;
+    }
+
+    .profilesubcontent>div {
+        display: block;
+    }
+
+    .skillcontent>div {
+        margin-top: 1.3rem;
+    }
+
+    /* section */
+    .talk1 {
+        margin-top: 3.5rem;
+    }
+
+    .section3 .inner,
+    .section5 .inner {
+        width: 1024px;
+        /* gap: 5rem; */
+    }
+
+    .menulist {
+        height: 37rem;
+    }
+
+    .menupopupwork {
+        height: 37rem;
+    }
+
+    .mmenupopupwork {
+        /* padding: 6rem 6.5rem 0 6.5rem; */
+    }
+
+    .menupopupwork2 img {
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .section3 .menupopup:nth-child(2) .menupopupwork2 img {
+        width: 60%;
+    }
+
+    .thx1 {
+        top: 26%;
+        left: 39%;
+    }
+
+    .thx2 {
+        top: 24%;
+        left: 38%;
+    }
+
+    .thx3 {
+        top: 22%;
+        left: 37%;
+    }
+
+    .circle {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    * {
+        font-size: 14.5px;
+    }
+
+    .deco {
+        font-size: 2.5rem;
+    }
+
+    .folder1 {
+        width: 6rem;
+        border-radius: .48rem .48rem 0 0;
+    }
+
+    .folder2 {
+        width: 24rem;
+        border-radius: 0 .48rem 0 0;
+    }
+
+    .folder3 {
+        border-radius: .48rem .48rem 0 0;
+    }
+
+    .tag span {
+        font-size: 2.8rem;
+        padding: 0 1.2rem;
+        line-height: 4.2rem;
+        border-radius: 4.2rem;
+    }
+
+    .profile,
+    .menupopup,
+    .menupopup2 {
+        width: 768px;
+    }
+
+    .profiletop,
+    .menupopuptop {
+        padding: 0.9rem 2.5rem 0.8em 2.5rem;
+    }
+
+    .profilebottom {
+        height: 31rem;
+        padding-bottom: 0;
+        gap: 0;
+    }
+
+    .profilesubtitle {
+        line-height: 1.5rem;
+    }
+
+    .profilesubcontent div div:nth-child(1) {
+        display: none;
+    }
+
+    .profile1 {
+        padding: 1.5rem 0;
+    }
+
+    .profileimg {
+        width: 12rem;
+        height: 16rem;
+    }
+
+    .name span {
+        line-height: 1.4;
+    }
+
+    .phone,
+    .email {
+        line-height: 1rem;
+    }
+
+    .profile2 {
+        margin: 1.5rem 0;
+    }
+
+    .skillcontent>div {
+        margin-top: 1rem;
+    }
+
+    .section3 .inner,
+    .section5 .inner {
+        width: 768px;
+    }
+
+    .folderm1 {
+        width: 3rem;
+        border-radius: 0.6rem 0.6rem 0 0;
+    }
+
+    .folderm2 {
+        width: 13rem;
+        border-radius: 0 0.6rem 0 0;
+    }
+
+
+    .folderpaper {
+        border-radius: .6rem .6rem 0 0;
+    }
+
+    .folderm3 {
+        border-radius: .6rem .6rem 0 0;
+    }
+
+    .foldername {
+        margin-top: .1rem;
+    }
+
+    .menulist {
+        height: 31rem;
+    }
+
+    .menulisttitle,
+    .menulistcontent {
+        height: 2.5rem;
+    }
+
+    .menulisttitle::before {
+        width: 2rem;
+        margin-right: .5rem;
+    }
+
+    .menulistcontent::before {
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .menupopupwork {
+        height: 31rem;
+    }
+
+    .menupopupsubtitle,
+    table,
+    .button {
+        margin-top: 1rem;
+    }
+
+    .section3 .menupopup:nth-child(2) .menupopupwork2 img {
+        width: 63%;
+    }
+
+    .section3 .menupopup:nth-child(4) .menupopupwork2 img {
+        width: 100%;
+    }
+
+    .codingimg {
+        top: 30vh;
+    }
+
+    .tablecircle {
+        gap: .2rem;
+    }
+
+    .mmenupopupwork:nth-child(1) .tablecircle span {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .thx {
+        width: 20rem;
+        height: 13.3rem;
+    }
+
+    .thxtop div {
+        font-size: 1.2rem;
+    }
+
+    .thxcontent>* {
+        font-size: 1rem;
+    }
+
+
+    .eye {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 14px;
+    }
+    .deco {
+        margin-bottom: 0;
+    }
+    .introduce{
+        font-size: 2rem;
+    }
+    .talk {
+        width: 12rem;
+    }
+    .talk div {
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+    }
+    .folder1 {
+        width: 4.5rem;
+        border-radius: .5rem .5rem 0 0;
+    }
+
+    .folder2 {
+        width: 18rem;
+        border-radius: 0 .5rem 0 0;
+    }
+
+    .folder3 {
+        border-radius: .5rem .5rem 0 0;
+    }
+
+    .tag span {
+        font-size: 5vw;
+        padding: 2.5vw;
+        line-height: 2vw;
+        border-radius: 4vw;
+    }
+
+    .tag span:nth-child(1) {
+        top: 37%;
+    }
+
+    .tag span:nth-child(2) {
+        top: 30%;
+        left: 20%;
+    }
+
+    .tag span:nth-child(3) {
+        top: 32%;
+    }
+
+    .tag span:nth-child(4) {
+        top: 27%;
+    }
+
+    .tag span:nth-child(5) {
+        top: 37%;
+    }
+
+    .tag span:nth-child(6) {
+        top: 35%;
+    }
+
+    .tag span:nth-child(7) {
+        bottom: 36%;
+    }
+
+    .tag span:nth-child(8) {
+        bottom: 27%;
+        left: 18%;
+    }
+
+    .tag span:nth-child(9) {
+        bottom: 30%;
+        right: 20%;
+    }
+
+    .tag span:nth-child(10) {
+        bottom: 36%;
+    }
+
+    .profile,
+    .menupopup,
+    .menupopup2 {
+        border-radius: 1.5rem;
+        width: 425px;
+    }
+
+    .profiletop,
+    .menupopuptop {
+        padding: 0.7rem 2rem 0.6em 2rem;
+    }
+
+    .profiletop div:nth-child(1),
+    .menupopuptop div:nth-child(1) {
+        font-size: 1.5rem;
+    }
+
+    .profilexbutton img,
+    .thxxbutton img {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
+    .profilebottom {
+        height: 46rem;
+    }
+
+    .profiletitle {}
+
+    .profilecontent {
+        height: calc(46rem - 3.5rem - 5rem);
+        margin: 0;
+    }
+
+    .scroll-container {
+        display: block;
+    }
+
+    .profile1 {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .profileimg {
+        width: 14.0625rem;
+        height: 18.75rem;
+    }
+
+    .name {
+        margin-top: 8px;
+    }
+
+    .name span:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .name span:nth-child(2) {
+        display: none;
+    }
+
+    .profile2 {
+        margin: 0;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .profile2-1 {
+        justify-content: center;
+        gap: 1rem;
+        flex: auto;
+    }
+
+    .profilesubcontent>div {
+        display: flex;
+    }
+
+    .profilesubcontent div div:nth-child(1) {
+        display: block;
+        margin-left: .3rem;
+    }
+
+    .profile2-2 {
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profile2-2 .profilesubtitle {
+        margin-left: 0;
+    }
+
+    .skillcontent>div {
+        flex-direction: row;
+    }
+
+    .skillimg {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: .3rem;
+    }
+
+    .skilltitle {
+        margin: 0 0 0 .3rem;
+        text-align: left;
+    }
+
+    .scroll-container {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        scroll-snap-type: y mandatory;
+    }
+
+    .scroll-item {
+        width: 100%;
+        height: 100%;
+        scroll-snap-align: start;
+        padding: 0 10%;
+    }
+
+    .section3 .inner,
+    .section5 .inner {
+        width: 425px;
+    }
+
+    .folderm1 {
+        width: 2.8rem;
+    }
+
+    .folderm2 {
+        width: 11rem;
+    }
+
+    .section5 .inner {
+        justify-content: space-between;
+    }
+
+    .menupopupcontent {
+        height: 46rem;
+        display: block;
+    }
+
+    .menulist {
+        width: 100%;
+        height: 10%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menulisttitle {
+        display: none;
+    }
+
+    .menulist div:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+
+    .menulistcontent::before {
+        display: none;
+    }
+
+    .menulistcontent {
+        margin-left: 0;
+    }
+
+    .menulistcontent a {
+        white-space: nowrap;
+    }
+
+    .menulist {}
+
+    .menupopupwork {
+        width: 100%;
+        height: 90%;
+    }
+
+    .mmenupopupwork {
+        padding: 0 10%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -53%);
+    }
+
+    .menupopuptitle {
+        text-align: center;
+    }
+
+    .menupopupworkk {
+        display: block;
+    }
+
+    .m-menupopupwork {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .m-menupopupwork img {
+        margin-top: 1rem;
+        width: 70%;
+    }
+
+    .menupopupsubtitle {
+        display: none;
+    }
+
+    .menupopupdescription {
+        display: none;
+    }
+
+    table {
+        margin: 1rem auto 0;
+    }
+
+    .button {
+        justify-content: center;
+    }
+
+    .menupopupwork2 {
+        display: none;
+    }
+
+    .thank {
+        font-size: 16vw;
+        line-height: 15.8vw;
+        margin: 4vh 0;
+    }
+
+    .thx1 {
+        top: 55vw;
+        left: 32%;
+    }
+
+    .thx2 {
+        top: 54vw;
+        left: 31%;
+    }
+
+    .thx3 {
+        top: 53vw;
+        left: 30%;
+    }
+
+    .circle {
+        width: 110%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 523px) {
+    * {
+        font-size: 13px;
+    }
+
+    .tag span {
+        font-size: 2.1rem;
+        padding: 0 0.9rem;
+        line-height: 3.15rem;
+        border-radius: 3.15rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    * {
+        font-size: 12px;
+    }
+
+    .folder1 {
+        width: 3rem;
+        border-radius: .32rem .32rem 0 0;
+    }
+
+    .folder2 {
+        width: 12rem;
+        border-radius: 0 .32rem 0 0;
+    }
+
+    .deco {
+        gap: 8vw;
+    }
+
+    .introduce{
+        font-size: 1.7rem;
+    }
+
+    .folder3 {
+        border-radius: .32rem .32rem 0 0;
+    }
+
+    .s1title {
+        font-size: 20vw;
+        line-height: 25vw;
+    }
+
+    .tag span:nth-child(1) {
+        top: 30%;
+    }
+
+    .tag span:nth-child(2) {
+        top: 21%;
+        left: 20%;
+    }
+
+    .tag span:nth-child(3) {
+        top: 25%;
+    }
+
+    .tag span:nth-child(4) {
+        top: 18%;
+        left: 43%;
+    }
+
+    .tag span:nth-child(5) {
+        top: 31%;
+    }
+
+    .tag span:nth-child(6) {
+        top: 26%;
+    }
+
+    .tag span:nth-child(7) {
+        bottom: 30%;
+        left: 12%;
+    }
+
+    .tag span:nth-child(8) {
+        bottom: 20%;
+        left: 7%;
+    }
+
+    .tag span:nth-child(9) {
+        bottom: 20%;
+        right: 10%;
+    }
+
+    .tag span:nth-child(10) {
+        bottom: 26%;
+    }
+
+    .profile,
+    .menupopup,
+    .menupopup2 {
+        width: 310px;
+    }
+
+    .profile2 {
+        padding: 0 6%;
+    }
+
+
+    .section3 .inner,
+    .section5 .inner {
+        width: 320px;
+    }
+
+    .section5 .inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mmenupopupwork {
+        padding: 0 5%;
+    }
+
+    .stitle {
+        transform: rotate(90deg);
+        font-size: 12vh;
+    }
+
+    .stitle span {
+        font-size: 10vh;
+    }
+
+    .designimg {
+        right: 9%;
+        bottom: 6%;
+    }
+
+    .talk1 {
+        margin-top: 0;
+        width: 12rem;
+    }
+
+    .talk1 div {
+        font-size: 1.2rem;
+        padding-top: 1.1rem;
+    }
+
+    .computer1 img {
+        width: 8rem;
+        margin-top: 0;
+    }
+
+    .codingimg {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        right: 9%;
+        top: auto;
+        bottom: 6%;
+    }
+
+    .talk2 {
+        width: 12rem;
+        background-image: url(../images/talk2-2.png);
+    }
+
+    .talk2 div {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    .thank {
+        font-size: 18vw;
+        line-height: 19vw;
+        margin: 9.5vh 0;
+    }
+
+    .thank br {
+        display: block;
+    }
+
+    .circle {
+        width: 60rem;
+    }
+
+    .thx {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .thx1 {
+        top: 45%;
+        left: 34%;
+    }
+
+    .thx2 {
+        top: 44%;
+        left: 32%;
+    }
+
+    .thx3 {
+        top: 43%;
+        left: 30%;
+    }
+
+    .thxcontent button {
+        padding: 0.6rem 1.35rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .thx1 {
+        top: 45%;
+        left: 32%;
+    }
+
+    .thx2 {
+        top: 44%;
+        left: 30%;
+    }
+
+    .thx3 {
+        top: 43%;
+        left: 28%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .folderm1 {
+        width: 2rem;
+    }
+    .folderm2 {
+        width: 8rem;
+    }
+
+    .thx1 {
+        top: 45%;
+        left: 28%;
+    }
+
+    .thx2 {
+        top: 44%;
+        left: 26%;
+    }
+
+    .thx3 {
+        top: 43%;
+        left: 24%;
+    }
+}
